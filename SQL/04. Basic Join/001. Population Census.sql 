@@ -1,0 +1,10 @@
+
+
+# https://www.hackerrank.com/challenges/asian-population/problem?isFullScreen=true
+# Score 10
+
+SELECT SUM(c.POPULATION)
+FROM CITY AS c
+INNER JOIN COUNTRY AS ctry
+ON c.COUNTRYCODE = ctry.CODE
+WHERE ctry.CONTINENT = 'Asia';
