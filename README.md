@@ -4,7 +4,7 @@ Este repositorio contiene soluciones a problemas de práctica de Hackerrank en P
 
 
 ## Soluciones en Python 3
-Aquí se encuentran 29 soluciones a problemas de práctica en Python 3. Puedes acceder a cada solución individualmente.
+Aquí se encuentran 63 soluciones a problemas de práctica en Python 3. Puedes acceder a cada solución individualmente.
 
 - [Soluciones en Python 3](https://github.com/DanEDR/HackerRank_Practice/tree/master/Python)
 
