@@ -5,7 +5,7 @@
 
 import re 
 
-pattern = re.compile(r'^(?!.*(.).*\1)[A-Za-z0-9]{10}$')
+pattern = re.compile(r'^(?!.*(.).*\1)(?=(?:.*[A-Z]){2,})(?=(?:.*[0-9]){3,})[A-Za-z0-9]{10}$')
 
 
 def is_valid_UID(string):
