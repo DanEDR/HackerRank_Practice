@@ -8,12 +8,11 @@ import xml.etree.ElementTree as etree
 maxdepth = 0
 def depth(elem, level):
     global maxdepth
-    # your code goes here
     level += 1
     
     for child in elem:
-      aux = depth(child, level)
-      maxdepth = max(aux, maxdepth)
+      new_depth = depth(child, level)
+      maxdepth = max(new_depth, maxdepth)
       
     return level
 
